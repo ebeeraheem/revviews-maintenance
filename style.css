@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100svh;
+  background-color: #121212;
+  color: #1b9c85;
+  display: grid;
+  place-items: center;
+  background-image: url(maintenance-mode.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  row-gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212ee;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Rubik", Sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Karla", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
